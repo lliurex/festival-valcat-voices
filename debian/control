@@ -1,0 +1,16 @@
+Source: festival-valcat-voices
+Section: sound
+Priority: optional
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.3
+
+Package: festvox-valcat-voices
+Architecture: all
+Depends: ${misc:Depends}, festival (>= 1:2.5.0-10)
+Conflicts: lliurex-festival-voices (<= 0.5)
+Description: Male Spanish voice for Festival
+ voices from FestCat project
+ See https://www.talp.upc.edu/festcat/ for more information.
+
+
