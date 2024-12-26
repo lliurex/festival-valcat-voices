@@ -8,7 +8,9 @@ Standards-Version: 3.9.3
 Package: festvox-valcat-voices
 Architecture: all
 Depends: ${misc:Depends}, festival (>= 1:2.5.0-8)
-Conflicts: lliurex-festival-voices (<= 0.5)
+Conflicts: lliurex-festival-voices (<= 0.5),festvox-ca-ona-hts
+Replaces: festvox-ca-ona-hts
+Provides: festvox-ca-ona-hts
 Description: Male Spanish voice for Festival
  voices from FestCat project
  See https://www.talp.upc.edu/festcat/ for more information.
